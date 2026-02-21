@@ -1,9 +1,9 @@
-# 📱 ChoSim
+# ChoSim
 ### Gamified Habit Tracking & Social Motivation App
 
 ---
 
-## 📌 프로젝트 소개
+## 프로젝트 소개
 
 ChoSim은 사용자의 습관 형성과 자기관리를 돕기 위해  
 **루틴 관리 + 캐릭터 성장 + 친구 소셜 기능**을 결합한  
@@ -14,7 +14,7 @@ ChoSim은 사용자의 습관 형성과 자기관리를 돕기 위해
 
 ---
 
-## 🎯 프로젝트 목표
+## 프로젝트 목표
 
 - 습관 형성 및 자기관리 지원  
 - 게임 요소를 통한 지속적인 동기 유도  
@@ -22,7 +22,7 @@ ChoSim은 사용자의 습관 형성과 자기관리를 돕기 위해
 
 ---
 
-## 📱 주요 기능
+## 주요 기능
 
 ### ✅ 루틴 관리 시스템
 - 루틴 생성 / 수정 / 삭제  
@@ -52,7 +52,7 @@ ChoSim은 사용자의 습관 형성과 자기관리를 돕기 위해
 
 ---
 
-## 🏗️ 앱 구조
+## 앱 구조
 
 ```
 ChoSim/
@@ -71,7 +71,7 @@ ChoSim/
 
 ---
 
-## ⚙️ 시스템 구성
+## 시스템 구성
 
 ### 🔹 UI 구조
 - Bottom Navigation 기반 화면 전환  
@@ -87,28 +87,28 @@ ChoSim/
 
 ---
 
-## 🛠️ 기술 스택
+## 기술 스택
 
-### 📱 Mobile
+### Mobile
 - Android (Java/Kotlin)  
 - Android Jetpack Components  
 - RecyclerView  
 - ViewPager & Fragment  
 
-### 🧩 Architecture
+### Architecture
 - MVVM 패턴  
 - LiveData 기반 상태 관리  
 
-### 🔔 System Features
+### System Features
 - AlarmManager (루틴 알림)  
 - Background Service  
 
-### 🎮 UX 설계
+### UX 설계
 - Gamification 기반 사용자 경험 설계  
 
 ---
 
-## 🧪 주요 구현 포인트
+## 주요 구현 포인트
 
 ✔ 루틴 관리 CRUD 기능 구현  
 ✔ 알림 시스템 및 백그라운드 처리  
@@ -118,7 +118,7 @@ ChoSim/
 
 ---
 
-## 👨‍💻 개발자
+## 개발자
 
 | 이름 | 담당 |
 |------|------|
@@ -126,7 +126,7 @@ ChoSim/
 | 김창섭 | 앱 설계 및 개발, 루틴 관리 기능 구현,  데이터 관리 기능 보조 구현, 테스트 및 안정화 |
 ---
 
-## 🚀 향후 개선 방향
+## 향후 개선 방향
 
 - Firebase 기반 클라우드 동기화  
 - 사용자 통계 시각화 강화  
