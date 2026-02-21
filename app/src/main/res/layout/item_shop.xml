@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_1_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/image_view_2_container"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_2_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/image_view_1_container"
+                app:layout_constraintRight_toLeftOf="@id/image_view_3_container"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_3_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/image_view_2_container"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/text_view_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_1_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_1_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_1_container"
+                tools:text="땡땡이(노랑)" />
+
+            <TextView
+                android:id="@+id/text_view_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_2_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_2_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_2_container"
+                tools:text="땡땡이(노랑)" />
+
+            <TextView
+                android:id="@+id/text_view_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_3_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_3_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_3_container"
+                tools:text="땡땡이(노랑)" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_4_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/image_view_5_container"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_5_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/image_view_4_container"
+                app:layout_constraintRight_toLeftOf="@id/image_view_6_container"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_6_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/image_view_5_container"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/text_view_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_4_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_4_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_4_container"
+                tools:text="땡땡이(노랑)" />
+
+            <TextView
+                android:id="@+id/text_view_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_5_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_5_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_5_container"
+                tools:text="땡땡이(노랑)" />
+
+            <TextView
+                android:id="@+id/text_view_6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_6_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_6_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_6_container"
+                tools:text="땡땡이(노랑)" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_7_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/image_view_8_container"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_8_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/image_view_7_container"
+                app:layout_constraintRight_toLeftOf="@id/image_view_9_container"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_view_9_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="#fed423"
+                app:cardCornerRadius="16dp"
+                app:contentPadding="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/image_view_8_container"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#fbc82e"
+                app:strokeWidth="4dp">
+
+                <ImageView
+                    android:id="@+id/image_view_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/text_view_7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_7_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_7_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_7_container"
+                tools:text="땡땡이(노랑)" />
+
+            <TextView
+                android:id="@+id/text_view_8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_8_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_8_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_8_container"
+                tools:text="땡땡이(노랑)" />
+
+            <TextView
+                android:id="@+id/text_view_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:minLines="2"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?attr/colorPrimary"
+                app:layout_constraintLeft_toLeftOf="@id/image_view_9_container"
+                app:layout_constraintRight_toRightOf="@id/image_view_9_container"
+                app:layout_constraintTop_toBottomOf="@id/image_view_9_container"
+                tools:text="땡땡이(노랑)" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

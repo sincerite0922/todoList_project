@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "795557147726",
+    "project_id": "chosim-8af86",
+    "storage_bucket": "chosim-8af86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795557147726:android:376feadf288d736e1f3f1f",
+        "android_client_info": {
+          "package_name": "com.project.chosim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795557147726-01bfsmk4r2kpqnv65p6d80bfshil77i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.chosim",
+            "certificate_hash": "402e189fc984ca327e927aabd3afb1a284301f0b"
+          }
+        },
+        {
+          "client_id": "795557147726-4ih14dpaot44khp52vbic7dse1jq3l30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.chosim",
+            "certificate_hash": "bf53041e35db2fcfa8108f61a55e4dcb538b85aa"
+          }
+        },
+        {
+          "client_id": "795557147726-feelkmfevclcqbdq1gt5l3cvhntbbpol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.chosim",
+            "certificate_hash": "c1554f1ef8282f90c5e58ab370b888669ae706a2"
+          }
+        },
+        {
+          "client_id": "795557147726-knbhjigs9i86un7tn5abiesjel2e41f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQsTsnPtC8MQ89vS3XGYLHG-eF4WxhFpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795557147726-knbhjigs9i86un7tn5abiesjel2e41f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

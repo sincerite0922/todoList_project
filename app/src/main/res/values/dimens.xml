@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="page_number_size">32dp</dimen>
+    <dimen name="page_number_spacing">8dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChoSim" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2c98f0</item>
+        <item name="colorPrimaryVariant">#006bbd</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#7cffbd</item>
+        <item name="colorSecondaryVariant">#43cb8d</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ChoSim.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.SecondaryToPrimary" parent="Theme.ChoSim">
+        <item name="colorPrimary">?attr/colorSecondary</item>
+        <item name="colorOnPrimary">?attr/colorOnSecondary</item>
+        <item name="colorPrimaryVariant">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <style name="Widget.PrimaryToSecondary" parent="Theme.ChoSim">
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorOnSecondary">?attr/colorOnPrimary</item>
+        <item name="colorSecondaryVariant">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Widget.CalendarButton" parent="Theme.ChoSim">
+        <item name="colorSecondary">?attr/colorSurface</item>
+        <item name="colorOnSecondary">@color/evaluate_bad</item>
+    </style>
+
+</resources>

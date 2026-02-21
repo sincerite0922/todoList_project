@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">초심작심</string>
+    <string name="channel_name">루틴 알람</string>
+    <string name="channel_description">설정한 시간에 루틴을 알립니다.</string>
+</resources>

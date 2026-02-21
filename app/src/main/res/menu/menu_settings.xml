@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.chosim.ui.home.HomeFragment">
+
+    <item
+        android:id="@+id/action_sign_out"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:orderInCategory="100"
+        android:title="로그아웃"
+        app:showAsAction="always" />
+
+</menu>

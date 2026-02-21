@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.chosim.ui.home.HomeFragment">
+
+    <item
+        android:id="@+id/action_routine"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:orderInCategory="100"
+        android:title="루틴"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_friends"
+        android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+        android:orderInCategory="100"
+        android:title="친구"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_evaluation"
+        android:icon="@drawable/ic_baseline_flag_24"
+        android:orderInCategory="100"
+        android:title="평가"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_character"
+        android:icon="@drawable/ic_baseline_games_24"
+        android:orderInCategory="100"
+        android:title="케릭터"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:orderInCategory="100"
+        android:title="설정"
+        app:showAsAction="always" />
+
+</menu>
